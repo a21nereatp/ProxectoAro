@@ -64,9 +64,6 @@ public class Aro {
         establecerRadio(valorRadio);
     }
 
-    public void establecerX(int valorX) {
-        setCoordenadaX(valorX);
-    }
 
 
     public void establecerY(int valorY) {

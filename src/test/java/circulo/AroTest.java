@@ -21,14 +21,14 @@ public class AroTest {
     }
     
     /**
-     * Test of establecerX method, of class Aro.
+     * Test of setCoordenadaX method, of class Aro.
      */
     @Test
     public void testEstablecerX() {
         System.out.println("establecerX");
         int valorX = 0;
         Aro instance = new Aro();
-        instance.establecerX(valorX);
+        instance.setCoordenadaX(valorX);
     }
 
     /**
