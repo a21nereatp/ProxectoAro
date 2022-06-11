@@ -8,7 +8,7 @@ public class Aro {
     public static final double MINIMO = 0.0;
 
     private int coordenadaX;
-    private int y;
+    private int coordenadaY;
     private double radio;
 
     public Aro() {
@@ -16,7 +16,7 @@ public class Aro {
 
     public Aro(int valorX, int valorY, double valorRadio) {
         coordenadaX = valorX;
-        y = valorY;
+        coordenadaY = valorY;
         establecerRadio(valorRadio);
     }
 
@@ -29,11 +29,11 @@ public class Aro {
     }
 
     public void establecerY(int valorY) {
-        y=valorY;
+        coordenadaY=valorY;
     }
 
     public int obterY() {
-        return y;
+        return coordenadaY;
     }
 
     public void establecerRadio(double valorRadio) {
@@ -59,11 +59,11 @@ public class Aro {
 
     @Override
     public String toString() {
-        return "Centro = [" + coordenadaX + "," + y + "]; Radio = " + radio;
+        return "Centro = [" + coordenadaX + "," + coordenadaY + "]; Radio = " + radio;
     }
 
     public void trasladarCentro(int trasladarx, int trasladary){
         coordenadaX=coordenadaX + trasladarx;
-        y=y + trasladary;
+        coordenadaY=coordenadaY + trasladary;
     }
 }
