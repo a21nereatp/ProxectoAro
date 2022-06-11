@@ -73,9 +73,6 @@ public class Aro {
         setRadio(valorRadio < MINIMO ? MINIMO : valorRadio);
     }
 
-    public double obterRadio() {
-        return getRadio();
-    }
 
     public double obterDiametro() {
         return getRadio() * 2;

@@ -12,7 +12,7 @@ public class Main {
         String saida =
                 "A coordenada X é "+circulo.getCoordenadaX()+
                 "\nA coordenada Y é "+circulo.getCoordenadaY()+
-                "\nO radio é "+circulo.obterRadio();
+                "\nO radio é "+circulo.getRadio();
         circulo.setCoordenadaX(35);
         circulo.setCoordenadaY(20);
         circulo.establecerRadio(4.2);
