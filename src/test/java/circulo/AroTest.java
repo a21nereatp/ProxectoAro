@@ -44,14 +44,14 @@ public class AroTest {
     }
 
     /**
-     * Test of establecerY method, of class Aro.
+     * Test of setCoordenadaY method, of class Aro.
      */
     @Test
     public void testEstablecerY() {
         System.out.println("establecerY");
         int valorY = 0;
         Aro instance = new Aro();
-        instance.establecerY(valorY);
+        instance.setCoordenadaY(valorY);
     }
 
     /**
