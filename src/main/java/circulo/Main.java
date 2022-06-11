@@ -10,7 +10,7 @@ public class Main {
 
     /**
      *
-     * @param args método main
+     * @param args método main.
      */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);
