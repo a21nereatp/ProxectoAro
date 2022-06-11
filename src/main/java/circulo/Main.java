@@ -11,7 +11,7 @@ public class Main {
         Aro circulo = new Aro(37,43,2.5);
         String saida =
                 "A coordenada X é "+circulo.getCoordenadaX()+
-                "\nA coordenada Y é "+circulo.obterY()+
+                "\nA coordenada Y é "+circulo.getCoordenadaY()+
                 "\nO radio é "+circulo.obterRadio();
         circulo.setCoordenadaX(35);
         circulo.establecerY(20);

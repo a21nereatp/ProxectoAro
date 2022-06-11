@@ -70,9 +70,6 @@ public class Aro {
         setCoordenadaY(valorY);
     }
 
-    public int obterY() {
-        return getCoordenadaY();
-    }
 
     public void establecerRadio(double valorRadio) {
 
