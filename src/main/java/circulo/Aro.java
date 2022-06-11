@@ -68,9 +68,6 @@ public class Aro {
         setCoordenadaX(valorX);
     }
 
-    public int obterX() {
-        return getCoordenadaX();
-    }
 
     public void establecerY(int valorY) {
         setCoordenadaY(valorY);
