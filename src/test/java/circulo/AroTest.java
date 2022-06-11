@@ -1,5 +1,5 @@
 /**
- * Probas para a clase Circulo
+ * Probas para a clase Aro
  * @author Nerea Trillo
  */
 package circulo;
@@ -13,15 +13,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author profesor
+ * @author Nerea Trillo
  */
 public class AroTest {
     
+    /**
+     * Construtor baleiro para a clase AroTest
+     */
     public AroTest() {
     }
     
     /**
-     * Test of setCoordenadaX method, of class Aro.
+     * Test of EstablecerX method, of class Aro.
      */
     @Test
     public void testEstablecerX() {
@@ -32,7 +35,7 @@ public class AroTest {
     }
 
     /**
-     * Test of getCoordenadaX method, of class Aro.
+     * Test of ObterX method, of class Aro.
      */
     @Test
     public void testObterX() {
@@ -44,7 +47,7 @@ public class AroTest {
     }
 
     /**
-     * Test of setCoordenadaY method, of class Aro.
+     * Test of EstablecerY method, of class Aro.
      */
     @Test
     public void testEstablecerY() {
@@ -55,7 +58,7 @@ public class AroTest {
     }
 
     /**
-     * Test of getCoordenadaY method, of class Aro.
+     * Test of ObterY method, of class Aro.
      */
     @Test
     public void testObterY() {
@@ -67,7 +70,7 @@ public class AroTest {
     }
 
     /**
-     * Test of setRadio method, of class Aro.
+     * Test of EstablecerRadio method, of class Aro.
      */
     @Test
     public void testEstablecerRadio() {
@@ -79,7 +82,7 @@ public class AroTest {
     }
 
     /**
-     * Test of getRadio method, of class Aro.
+     * Test of ObterRadio method, of class Aro.
      */
     @Test
     public void testObterRadio() {

@@ -3,10 +3,15 @@ package circulo;
 import java.text.DecimalFormat;
 
 /**
- * Pruebas de refactorización en NetBeans con la clase Aro
+ * Clase principal do proxectoAro
  * @author Nerea Trillo
  */
 public class Main {
+
+    /**
+     *
+     * @param args método main
+     */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);
         String saida =
